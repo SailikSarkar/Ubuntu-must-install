@@ -1,0 +1,12 @@
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt install preload
+sudo apt install gnome-tweaks -y
+sudo apt install gnome-shell-extensions
+sudo apt install ubuntu-restricted-extras
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action ‘minimize’
+sudo apt install flatpak
+sudo add-apt-repository ppa:flatpak/stable
+sudo apt update
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
